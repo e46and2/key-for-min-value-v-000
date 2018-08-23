@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   name_a = name_hash.to_a
 
   d_value= 10000
-  d_key= 0
+  d_key= nil
 
   name_a.map do |i|
 
